@@ -53,7 +53,7 @@ public class StartFrame extends JFrame {
 		popUpTable(); //Finalmente se llama al método aquí (De esta forma queda reconocido el PopUp).
 	}
 	
-	public void popUpTable(){
+	public void popUpTable() {
 		JPopupMenu pm = new JPopupMenu(); //Aca se crea el PopUp (La ventana).
 		JMenuItem mi = new JMenuItem("Agregar", new ImageIcon("Imagenes/add.png")); //Aca se crea un JMenuItem (Para luego añadirlo al PopUp).
 		mi.addActionListener(new ActionListener() {
